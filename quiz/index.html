@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+</head>
+<body>
+    <!-- <i class="fa fa-download" aria-hidden="true"></i> -->
+ <div class="app">
+    <!-- <box-icon name='down-arrow-alt' style="color:black;font-size: 24px;cursor: pointer;"></box-icon> -->
+    <button onclick="download()" id="down">Download quiz </button>
+<h1>Simple Quiz</h1>
+<div class="quiz">
+    <h2 id="question">question</h2>
+    <div id="answerButtons">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+    </div>
+    <button id="next-btn">NEXT</button>
+</div>
+<div id="result"></div>
+<audio id="success-sound" src="success-sound.mp3"></audio>
+
+ </div>  
+ <script src="script.js"></script> 
+</body>
+</html>
